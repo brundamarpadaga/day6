@@ -9,4 +9,12 @@
 	<servlet-name>FibonacciServlet</servlet-name>
 	<url-pattern>/fibonacci</url-pattern>
 </servlet-mapping>
+<servlet>
+<servlet-name>PasswordServlet</servlet-name>
+<servlet-class>com.learning.passwordMatcher.PasswordServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>PasswordServlet</servlet-name>
+<url-pattern>/passwordConfirmation</url-pattern>
+</servlet-mapping>
 </web-app>
