@@ -10,6 +10,7 @@
 	<url-pattern>/fibonacci</url-pattern>
 </servlet-mapping>
 <servlet>
+<display-name>PasswordServlet</display-name>
 <servlet-name>PasswordServlet</servlet-name>
 <servlet-class>com.learning.passwordMatcher.PasswordServlet</servlet-class>
 </servlet>
