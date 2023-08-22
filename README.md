@@ -1,2 +1,2 @@
-DAY_6 PROJECT
+Assignments
 https://github.com/brundamarpadaga/day6
