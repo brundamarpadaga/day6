@@ -17,13 +17,14 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-import com.learning.highLowGame.HiLoController;
+import com.learning.controller.HiLoController;
 
 @WebServlet("/hilo")
 public class HiLoServlet extends HttpServlet{
 	
 	
-	 private HiLoController hlc;
+	 private static final long serialVersionUID = 1L;
+	private HiLoController hlc;
 	 private JakartaServletWebApplication application;
 	 private TemplateEngine templateEngine;
 	 @Override
